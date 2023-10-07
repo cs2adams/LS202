@@ -1,0 +1,1 @@
+This is the git repository for the course "LS202: HTML and CSS"
