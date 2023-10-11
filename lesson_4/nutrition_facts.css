@@ -6,6 +6,8 @@ body {
   width: 390px;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.25rem;
+  border: 1px solid black;
+  padding: 5px;
 }
 
 header p {
