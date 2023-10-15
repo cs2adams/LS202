@@ -6,7 +6,7 @@
   <link href="contact_form.css" rel="stylesheet">
 </head>
 <body>
-  <form>
+  <form action="#">
     <fieldset>
       <dl>
         <dt><label for="first_name">First Name</label></dt><!--
@@ -169,8 +169,13 @@
         <dt>Comments</dt>
         <dd><textarea rows="6" cols="80"></textarea></dd>
       </dl>
-      
+
       <input type="hidden" value="2023-10-15">
+    </fieldset>
+
+    <fieldset class="button">
+      <input type="submit" value="Send">
+      <input type="reset">
     </fieldset>
   </form>
 </body>

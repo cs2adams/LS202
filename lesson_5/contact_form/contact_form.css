@@ -1,5 +1,6 @@
 fieldset {
   border: none;
+  padding: 0;
 }
 
 dl {
@@ -43,4 +44,15 @@ dl#comment-box dt {
 
 dl#comment-box dd {
   display: block;
+}
+
+input[type="hidden"] {
+  height: 0;
+  padding: 0;
+  margin: 0;
+}
+
+fieldset.button input {
+  margin: 5px 0;
+  width: 100px;
 }
