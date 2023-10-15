@@ -1,0 +1,22 @@
+dl {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+dt {
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 0;
+  width: 100px;
+}
+
+dd {
+  display: inline-block;
+  margin: 0;
+  box-sizing: border-box;
+  width: 200px;
+}
+
+input {
+  width: 100%;
+}
