@@ -20,3 +20,17 @@ dd {
 input {
   width: 100%;
 }
+
+p {
+  margin-bottom: 10px;
+}
+
+dl.radio {
+  margin: 0;
+}
+
+dt.radio {
+  width: 50px;
+  color: red;
+}
+
