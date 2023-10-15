@@ -37,3 +37,10 @@ dt.list {
   width: 50px;
 }
 
+dl#comment-box dt {
+  display: block;
+}
+
+dl#comment-box dd {
+  display: block;
+}
