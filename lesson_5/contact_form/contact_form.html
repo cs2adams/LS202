@@ -7,29 +7,33 @@
 </head>
 <body>
   <form action="#" method="post">
-    <fieldset>
+    <fieldset class="inline">
       <dl>
         <dt class="first_name"><label for="first_name">First Name</label></dt><!--
         --><dd><input type="text" name="first_name" id="first_name" required></dd>
-      </dl>
+      </dl><!--
       
-      <dl>
+      --><dl class="inline">
         <dt><label for="last_name">Last Name</label></dt><!--
         --><dd><input type="text" name="last_name" id="last_name" required></dd>
       </dl>
+    </fieldset>
       
+    <fieldset class="no-top-margin">
       <dl>
         <dt><label for="email">Email</label></dt><!--
         --><dd><input type="email" name="email" id="email"
                       placeholder="example@domain.com" required></dd>
       </dl>
-      
-      <dl>
+    </fieldset>
+
+    <fieldset class="inline no-top-margin">
+      <dl class="city">
         <dt><label for ="city">City</label></dt><!--
         --><dd><input type="text" name="city" id="city"></dd>
-      </dl>
+      </dl><!---
       
-      <dl>
+      --><dl class="state">
         <dt><label for="state">State</label></dt><!--
         --><dd class="align-left">
           <select name="state" id="state">
@@ -86,9 +90,9 @@
             <option>WY</option>
           </select>
         </dd>
-      </dl>
+      </dl><!---
       
-      <dl>
+      --><dl class="zipcode">
         <dt><label for="zipcode">Zip Code</label></dt><!--
         --><dd>
           <input type="number" name="zipcode" id="zipcode" placeholder="12345"

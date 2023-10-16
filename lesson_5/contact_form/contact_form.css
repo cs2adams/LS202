@@ -10,8 +10,28 @@ fieldset {
   width: 600px;
 }
 
+.no-top-margin {
+  margin-top: 0;
+}
+
 dl {
   box-sizing: border-box;
+}
+
+.inline dl {
+  width: 50%;
+}
+
+.inline .state {
+  width: 10%;
+}
+
+.inline .zipcode {
+  width: 40%;
+}
+
+.inline input {
+  width: 100%;
 }
 
 dt {
@@ -31,6 +51,29 @@ dd {
   box-sizing: border-box;
   width: 100%;
   margin-left: 0;
+}
+
+.inline dl,
+.inline dd,
+.inline dt {
+  display: inline-block;
+}
+
+.inline dl {
+  padding-left: 1.25%;
+  padding-right: 1.25%;
+}
+
+.inline dl:first-child {
+  padding-left: 0;
+}
+
+.inline dl:last-child {
+  padding-right: 0;
+}
+
+.inline dl + dl {
+  margin: 0;
 }
 
 dd.align-left {
