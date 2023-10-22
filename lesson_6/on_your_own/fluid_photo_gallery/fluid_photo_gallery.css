@@ -10,20 +10,21 @@ html {
 }
 
 main {
-  min-width: 500px;
   max-width: 1000px;
   margin: 0 auto;
-  box-sizing: border-box;
   padding: 2.5%;
   background-color: #333333;
+}
+
+#gallery {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
 }
 
 h1 {
-  margin: 0 auto 15px;
-
-
+  margin-bottom: 15px;
+  text-align: center;
 }
 
 #large-photo {
@@ -37,6 +38,7 @@ figcaption {
 #small-photo {
   flex: 1;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 20px;
 }
@@ -52,4 +54,45 @@ img {
 #small-photo img {
   width: 23%;
   padding: 0.2%;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 899px) {
+  #small-photo img {
+    width: 31%;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  #small-photo img {
+    width: 48%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  main {
+    max-width: none;
+  }
+  
+  #gallery {
+    flex-direction: row;
+  }
+
+  #large-photo {
+    margin-right: 50px;
+  }
+
+  #small-photo {
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  #small-photo img {
+    width: 100%;
+    padding: 1%;
+  }
+
+  figure {
+    width: 1000px;
+  }
 }
