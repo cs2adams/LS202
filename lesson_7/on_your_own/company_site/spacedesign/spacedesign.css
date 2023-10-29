@@ -1,0 +1,176 @@
+@import url("whitespace-reset.css");
+
+body {
+  font-family: Avenir, Nunito, Helvetica, Arial, sans-serif;
+  font-size: 21px;
+  color: rgb(69, 73, 77);
+  background-color: white;
+}
+
+header, main, footer {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header {
+  background: rgb(47, 40, 64) url(images/bg_body.gif);
+  padding: 135px 0 36px;
+}
+
+#site {
+  margin-top: 108px;
+}
+
+nav li {
+  display: inline-block;
+  padding: 0 30px;
+}
+
+a {
+  font-size: 28px;
+  text-transform: uppercase;
+  color: rgb(202, 202, 202);
+  text-decoration: none;
+}
+
+.active {
+  color: rgb(109, 185, 255);
+  font-weight: bold;
+}
+
+main {
+  background-color: white;
+  padding: 110px 0 0 0;
+}
+
+h2 {
+  font-size: 36px;
+  color: rgb(69, 73, 77);
+  display: inline-block;
+  padding: 0 30px 0;
+}
+
+h2::before, h2::after {
+  content: "\2022";
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 22px;
+  vertical-align: 5px;
+}
+
+h2::before {
+  padding-right: 30px;
+}
+
+h2::after {
+  padding-left: 30px;
+}
+
+h3 {
+  color: rgb(62, 89, 178);
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#home {
+  width: 840px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+#projects {
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+#projects h2 {
+  margin-bottom: 15px;
+}
+
+#projects img {
+  margin-bottom: 40px;
+  width: 1115px;
+}
+
+#projects p {
+  width: 800px;
+  margin: auto;
+}
+
+#projects section {
+  margin-bottom: 30px;
+}
+
+#team {
+  width: 850px;
+  margin: auto;
+  padding-bottom: 148px;
+}
+
+#team h2 {
+  margin-bottom: 10px;
+}
+
+#team figure {
+  display: inline-block;
+  padding: 0 30px;
+  margin-top: 130px;
+}
+
+#team figure img {
+  display: block;
+}
+
+#team figcaption {
+  color: rgb(62, 89, 178);
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+section {
+  margin-bottom: 60px;
+}
+
+footer {
+  padding: 85px 0 73px;
+  background-color: rgb(231, 231, 231);
+}
+
+footer p {
+  color: rgb(178, 178, 178);
+  margin: 0 auto;
+  width: 467px;
+}
+
+#social {
+  margin: 35px auto 0;
+}
+
+.social {
+  background-image: url("images/icons_social-media.png");
+  width: 46px;
+  height: 46px;
+}
+
+#social li {
+  padding: 0 59px;
+}
+
+#x {
+  background-position: 0px 0px;
+}
+
+#instagram {
+  background-position: 0px  46px;
+}
+
+#email {
+  background-position: 0px 92px;
+}
+
+#facebook {
+  background-position: 0px 138px;
+}
