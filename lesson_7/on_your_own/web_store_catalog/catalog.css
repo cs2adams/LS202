@@ -1,0 +1,124 @@
+@import url("whitespace-reset.css");
+
+html {
+  color: rgb(36, 32, 33);
+  font-size: 16px;
+  background-color: rgb(255, 213, 5);
+  font-family: sans-serif;
+}
+
+body {
+  width: 900px;
+  margin: auto;
+  position: relative;
+}
+
+header {
+  color: white;
+  background-color: rgb(4, 126, 193);
+  padding: 31px 0 31px 28px;
+  margin-bottom: 30px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+main {
+  background-color: rgb(236, 236, 236);
+  font-size: 30px;
+  padding: 26px 0 40px 25px;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom:26px;
+}
+
+.products {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.products a,
+.clicked .products figure {
+  margin: 0 18px 18px 0;
+}
+
+.products a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.products figure {
+  box-sizing: border-box;
+  background-color: white;
+  width: 200px;
+  height: 235px;
+  padding: 15px 15px 20px;
+}
+
+img {
+  display: block;
+}
+
+.products img {
+  height: 140px;
+  margin: 0 auto 20px;
+}
+
+.products dt {
+  font-weight: bold;
+  font-size: 19px;
+  margin-bottom: 5px;
+}
+
+.products dd {
+  font-size: 16px;
+}
+
+figure.clicked {
+  width: 400px;
+  position: absolute;
+  top: 100px;
+  left: 250px;
+  z-index: 2;
+}
+
+figure.clicked img {
+  width: 100%;
+}
+
+.clicked a, .dim {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.clicked a {
+  text-decoration: none;
+  color: inherit;
+  z-index: 2;
+}
+
+.dim {
+  background-color: black;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+figure {
+  position: relative;
+}
+
+figcaption {
+  position: absolute;
+  left: 15px;
+  bottom: 20px;
+}
